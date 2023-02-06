@@ -20,7 +20,7 @@ const MovieDetails = () => {
             // set details to state
             setMovie(res.data);
         })
-    }, []);
+    }, [movieID]);
 
     const { tagline, original_title, overview, poster_path } = movie;
 
